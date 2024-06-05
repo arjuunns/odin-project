@@ -1,0 +1,243 @@
+*{
+    border:border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #6b7280;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-left: 117px;
+    margin-right: 117px;
+    margin-top: 2px;
+    padding: 8px 10px;
+}
+.nav-logo img{
+    height: 48px;
+    width: 166px;
+}
+
+.nav-links a{
+    margin-left: 32px;
+    padding: 4px 4px 0px;
+    font-weight: 500;
+}
+.nav-links a:hover{
+    color: black;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(224, 223, 223);
+}
+
+.get-started-button{
+    border: 12px solid #0f766e;
+    background-color: #0f766e;
+    border-radius: 5px;
+    color: white;
+    font-weight: 300;
+}
+.get-started-button:hover{
+    background-color: #11655e !important; 
+    border-color:#11655e !important;
+    color: white !important;
+}
+.hero-section-container{
+    width: 1280px;
+    height: 434px;
+    margin: 0px 80px;
+    padding: 5px 32px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-heading-container{
+    width: 900px;
+    height: 300px;
+    margin: 0px 160px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-heading-container p{
+    color: #6b7280;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+
+.hero-heading-container h1{
+    padding-bottom: 24px;
+    font-weight: 500;
+    font-size: 60px;
+    display: inline;
+    color: #374751;
+}
+.hero-heading-container span{
+    color: #a9792b;
+    font-weight: 500;
+    font-size: 55px;
+}
+
+.hero-section-container a{
+    height: 30px;
+    width: 150px;
+    padding: 12px 24px;
+    border: 0.1px solid #c9c8c8;
+    border-radius: 5px;
+    color: #374751;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section-container a:hover{
+    background-color:rgba(210, 210, 210,0.1);
+}
+.hero-img{
+    width: 1500px;
+    background-size: cover;
+}
+
+.page-container{
+    height: 720px;
+    width: 1280px;
+    margin: 0px 80px;
+    padding: 80px 20px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page-container h2{
+    margin-bottom: 20px;
+    font-size: 31px;
+    font-weight: 500;
+    color: #1f2937;
+    }
+
+.page-container p{
+    font-weight: 300;
+    color: #4b5563;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.box{
+    height: 372px;
+    width: 342px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box h3{
+    margin: 32px 0px 16px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #273a57;
+}
+.box p{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+    color: #7c8490;
+    word-spacing: 3px;
+    line-height: 1.5;
+    padding-left: 30px;
+}
+
+.build{
+    margin-top: 13px;
+}
+
+
+.cards-container{
+    width: 100vw;
+    height: 1350px;
+    background-color: #f3f4f6;
+}
+
+.cards-inner-container{
+    margin: 0px 117px;
+    padding: 10px 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 33.33%;
+    justify-content: center;
+
+}
+
+.cards-container h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    color: #1f2937;
+    padding-bottom: 48px;
+    padding-top: 48px;
+}
+
+.card{
+    width: 224px;
+    box-sizing: border-box;
+    height: 308px;
+    background-color: white;
+    margin: 16px;
+    padding: 24px 40px;
+    border-radius: 7px;
+    transition: 0.2s;
+
+}
+
+.card:hover{
+    box-shadow: 2px 3px 10px rgb(206, 204, 204);
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.card h3{
+    font-size: 20px;
+    word-spacing: 2px;
+    line-height: 1.5;
+    color: #4b5563;
+    font-weight: bold;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.explore_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.explore-button:hover{
+    background-color:rgba(210, 210, 210,0.1);
+    
+}
+.explore-button {
+    height: 30px;
+    width: 150px;
+    padding: 12px 24px;
+    border: 0.1px solid #c9c8c8;
+    border-radius: 5px;
+    color: #374751;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+}
